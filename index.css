@@ -1,0 +1,83 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.header{
+background-color: black;
+padding: 0px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+cursor: pointer;
+
+}
+
+.property-header nav ul {
+display: flex;
+align-items: center;
+list-style: none;
+padding:15px;
+margin-left: 30px;
+gap: 40px;
+}
+.property-header nav ul li{
+  margin-right: 20px;
+}
+
+.property-header nav ul li a{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.searchBar input{
+  padding: 10px 35px 10px 35px;
+display: flex;
+  border-radius: 10px;
+  border:none;
+  color:white;
+  position: relative;
+  color: black;
+  margin-left: 40px;
+}
+/* .search-icon {
+position: fixed;
+top:50px;
+margin-left: 50px;
+  transform: translateY(-50%);
+  color: gray;
+} */
+.login nav ul {
+  display: flex;
+
+  align-items: center;
+  list-style: none;
+  padding:24px;
+  margin-left: 30px;
+  gap: 40px;
+  }
+  .login nav ul li{
+    margin-right: 10px;
+  }
+  
+  .login nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .category select{
+    display: flex;
+    justify-content: space-around;
+    padding:10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    width: 150%;
+    gap: 10px;
+    border-radius: 10px;
+border-color: none;
+font-size: 13px;
+  }

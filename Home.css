@@ -1,0 +1,52 @@
+.body {
+    position: relative;
+    width: 100%;
+}
+
+.img img {
+    width: 100%;
+    height: auto;
+    -webkit-mask-image: linear-gradient(to right, transparent, black);
+    mask-image: linear-gradient(to right, transparent, black);
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    width: 60%;  /* Adjust width for better alignment */
+    color: rgb(7, 7, 7);
+ 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text-overlay p {
+    font-size: 20px;
+    margin-bottom: 20px; /* Adds space between text and buttons */
+}
+
+.button {
+    display: flex;
+    justify-content: center;  /* Centers buttons */
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.watch-now-btn {
+    margin-top: 1rem;
+    background-color: #dc2626; /* red-600 */
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
+  }
+  
+  .watch-now-btn:hover {
+    background-color: #b91c1c; /* red-700 */
+    transform: scale(1.05);
+  }
